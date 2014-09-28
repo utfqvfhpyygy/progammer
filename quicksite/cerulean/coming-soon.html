@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="HTML5 Business Template Powered By Twitter Bootstrap 3.0">
+		<meta name="author" content="Anuj Kumar">
+
+		<link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+		<title>QuickSite - Bootstrap Business Template</title>
+
+		<link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="./bootstrap/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<link href="./includes/css/bootstrap-social-3.css" rel="stylesheet">
+		<link href="./includes/themes/default/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="./includes/js/html5shiv.js"></script>
+			<script src="./includes/js/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			body{
+				padding-top:50px;
+
+				/* Image Background */
+
+				background: url(./includes/themes/default/bg.jpg) no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+
+				/* CSS Gradient Background */
+
+				/*background-image: linear-gradient(bottom, rgb(71,36,10) 12%, rgb(61,5,5) 56%, rgb(30,15,2) 78%);
+				background-image: -o-linear-gradient(bottom, rgb(71,36,10) 12%, rgb(61,5,5) 56%, rgb(30,15,2) 78%);
+				background-image: -moz-linear-gradient(bottom, rgb(71,36,10) 12%, rgb(61,5,5) 56%, rgb(30,15,2) 78%);
+				background-image: -webkit-linear-gradient(bottom, rgb(71,36,10) 12%, rgb(61,5,5) 56%, rgb(30,15,2) 78%);
+				background-image: -ms-linear-gradient(bottom, rgb(71,36,10) 12%, rgb(61,5,5) 56%, rgb(30,15,2) 78%);
+
+				background-image: -webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					color-stop(0.12, rgb(71,36,10)),
+					color-stop(0.56, rgb(61,5,5)),
+					color-stop(0.78, rgb(30,15,2))
+				);*/
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container coming-soon">
+			<div class="brand">QUICK<span class="strap">SITE</span></div>
+			<h3>Stay tuned, we are launching soon...</h3>
+			<p>We are currently working on a new HTML5 website template that will use awesome responsive features of Twitter Bootstrap 3.0. Be prepared for the best bootstrap template for corporate & business websites. Subscribe to get updates.</p>
+			 <div class="time-boxes" id="counter">
+				<div class="box">
+				    <div class="circle">
+					<span id="days"></span>
+				    </div>
+				    <p>Days</p>
+				</div>
+				<div class="box">
+				    <div class="circle">
+					<span id="hours"></span>
+				    </div>
+				    <p>Hours</p>
+				</div>
+				<div class="box">
+				    <div class="circle">
+					<span id="minutes"></span>
+				    </div>
+				    <p>Minutes</p>
+				</div>
+				<div class="box">
+				    <div class="circle">
+					<span id="seconds"></span>
+				    </div>
+				    <p>Seconds</p>
+				</div>
+	    		</div>
+			<div class="subscribe">
+				<div class="input-group">
+					<input id="newsletter" type="text" placeholder="Email" class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-main" type="button">Subscribe</button>
+					</span>
+				</div>
+			</div>
+			<div class="social-networks">
+				<a href="#" title="Follow us on Facebook" class="icon-facebook"></a>
+				<a href="#" title="Follow us on Twitter" class="icon-twitter"></a>
+				<a href="#" title="Follow us on Google Plus" class="icon-google-plus"></a>
+				<a href="#" title="Subscribe to our RSS feed" class="icon-rss"></a>
+			</div>
+		</div>
+
+
+		<script src="./includes/js/jquery-2.0.3.min.js"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+		<script src="./includes/js/jquery.countdown.min.js"></script>
+		<script src="./includes/js/default.js"></script>
+
+		<script type="text/javascript">
+			$(function () {
+			    	var currentDate = new Date(),
+			    	finished = false,
+			    	availiableExamples = {
+					set15daysFromNow: 15 * 24 * 60 * 60 * 1000,
+					set5minFromNow  : 5 * 60 * 1000,
+					set1minFromNow  : 1 * 60 * 1000
+			    	};
+
+			    	function callback(event) {
+					$this = $(this);
+					$this.find('span#'+event.type).html(event.value);
+					switch(event.type) {
+				    		case "seconds":
+				    		case "minutes":
+				   		case "hours":
+				   		case "days":
+				    		case "weeks":
+				    		case "daysLeft":
+				    		case "finished":
+					}
+			    	}
+
+			    	$('#counter').countdown(availiableExamples.set15daysFromNow + currentDate.valueOf(), callback);
+			});
+		</script>
+	</body>
+</html>
