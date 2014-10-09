@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3321bbf2-94a9-4b09-adfb-519231d26987" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/macro/left.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-    </list>
+    <list default="true" id="3321bbf2-94a9-4b09-adfb-519231d26987" name="Default" comment="" />
     <ignored path="progammer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +35,7 @@
       <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="63" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.53748006" vertical-offset="1069" max-vertical-offset="2831">
+            <state line="69" column="63" selection-start="2949" selection-end="2949" vertical-scroll-proportion="2.2424242" vertical-offset="0" max-vertical-offset="2831">
               <folding>
                 <element signature="n#style#0;n#a#0;n#small#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -444,7 +441,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="63" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.53748006" vertical-offset="1069" max-vertical-offset="2831">
+        <state line="69" column="63" selection-start="2949" selection-end="2949" vertical-scroll-proportion="2.2424242" vertical-offset="0" max-vertical-offset="2831">
           <folding>
             <element signature="n#style#0;n#a#0;n#small#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
