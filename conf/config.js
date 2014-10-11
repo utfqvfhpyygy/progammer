@@ -2,6 +2,6 @@ module.exports ={
 
     dev:{
 
-        dburl:'mongodb://localhost:27017/leyanwu',
+        dburl:'mongodb://mongodb.leyanwu.com:27017/leyanwu'
     }
 }
