@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+/*
 var Download = require('../model/download');
 
 var doc = { title : 'emtity_demo_title'};
@@ -11,6 +12,7 @@ mongooseEntity.save(function(err){
     console.log(err);
 
 });
+*/
 
 /* GET home page. */
 router.get('/', function(req, res) {
